@@ -7,21 +7,25 @@
         <link rel="shortcut icon" href="./public/images/favicon-16x16.png" type="image/x-icon">
         <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
         <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="./src/style.css">
     </head>
     <body>
         <header>
             <div>
-                <img src="./public/images/udemy-logo.png" alt="udemy-logo">
+                <img src="./public/images/udemy-logo.png" alt="udemy-logo" id="brand-logo">
             </div>
-            <form action="/" class="w-50 input-group">
-                <input type="text" class="form-control " placeholder="Search for anything">
+            <span>Categories</span>
+            <form action="/" class="w-50">
+                <input type="text" class="form-control" id="search" placeholder="Search for anything">
             </form>
-            <nav>
+            <nav >
                 <span>Plans & Pricing</span>
                 <span>Udemy Business</span>
                 <span>Teach on Udemy</span>
             </nav>
 
         </header>
+
+        
     </body>
 </html>
